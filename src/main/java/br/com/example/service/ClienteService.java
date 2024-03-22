@@ -1,6 +1,6 @@
-package one.digitalinnovation.gof.service;
+package br.com.example.service;
 
-import one.digitalinnovation.gof.model.Cliente;
+import br.com.example.model.Cliente;
 
 /**
  * Interface que define o padrão <b>Strategy</b> no domínio de cliente. Com

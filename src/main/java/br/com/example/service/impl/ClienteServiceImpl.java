@@ -1,16 +1,16 @@
-package one.digitalinnovation.gof.service.impl;
+package br.com.example.service.impl;
 
 import java.util.Optional;
 
+import br.com.example.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import one.digitalinnovation.gof.model.Cliente;
-import one.digitalinnovation.gof.model.ClienteRepository;
-import one.digitalinnovation.gof.model.Endereco;
-import one.digitalinnovation.gof.model.EnderecoRepository;
-import one.digitalinnovation.gof.service.ClienteService;
-import one.digitalinnovation.gof.service.ViaCepService;
+import br.com.example.model.Cliente;
+import br.com.example.model.ClienteRepository;
+import br.com.example.model.Endereco;
+import br.com.example.model.EnderecoRepository;
+import br.com.example.service.ClienteService;
 
 /**
  * Implementação da <b>Strategy</b> {@link ClienteService}, a qual pode ser
